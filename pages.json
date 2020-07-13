@@ -1,0 +1,67 @@
+{
+	"pages": [
+		{
+			"path": "pages/index/index",
+			"style": {
+				"navigationBarTitleText": "登录页"
+			}
+		},{
+			"path": "pages/home/index",
+			"style": {
+				"navigationBarTitleText": "首页",
+				"app-plus":{"scrollIndicator":"none"}
+			}
+		},{
+			"path": "pages/classify/index",
+			"style": {
+				"navigationBarTitleText": "分类"
+			}
+		},{
+			"path": "pages/cart/index",
+			"style": {
+				"navigationBarTitleText": "进货单"
+			}
+		},{
+			"path": "pages/my/index",
+			"style": {
+				"navigationBarTitleText": "我的"
+			}
+		}	
+	],
+	"globalStyle": {
+		"navigationBarTextStyle": "white",
+		"navigationBarTitleText": "uni-app",
+		"navigationBarBackgroundColor": "#007AFF",
+		"backgroundColor": "#FFFFFF",
+		"scrollIndicator":"none",
+		"navigationStyle":"custom"
+	},
+	"tabBar": {
+	    "color": "#000000",
+	    "selectedColor": "#1e90ff",
+	    "borderStyle": "black",
+	    "backgroundColor": "#ffffff",
+	    "list": [{
+	        "pagePath": "pages/home/index",
+	        "iconPath": "static/image/ic_home.png",
+	        "selectedIconPath": "static/image/ic_home_pre.png",
+	        "text": "组件"
+	    },{
+	        "pagePath": "pages/classify/index",
+	        "iconPath": "static/image/ic_shangpin.png",
+	        "selectedIconPath": "static/image/ic_shangping_pre.png",
+	        "text": "接口"
+	    },{
+	        "pagePath": "pages/cart/index",
+	        "iconPath": "static/image/ic_jinhuodan.png",
+	        "selectedIconPath": "static/image/ic_jinhuodan_pre.png",
+	        "text": "接口"
+	    },{
+	        "pagePath": "pages/my/index",
+	        "iconPath": "static/image/ic_wode.png",
+	        "selectedIconPath": "static/image/ic_wode_pre.png",
+	        "text": "接口"
+	    }
+		]
+	}
+}
